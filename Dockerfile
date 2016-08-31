@@ -1,4 +1,4 @@
-FROM Ubuntu
+FROM debian:jessie
 MAINTAINER Dmitry  K "d.p.karpov@gmail.com"
 
 #run docker run --rm --name dokuwiki-ng --cap-add=sys_admin --device=/dev/fuse:/dev/fuse dokuwiki:ng
